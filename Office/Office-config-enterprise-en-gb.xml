@@ -1,11 +1,12 @@
-<Configuration ID="2049c1f8-0ff1-48b1-99c3-2c04c0883000">
+<Configuration ID="849ea27e-6459-4ae5-95f8-ecba58807704">
+  <Remove All="TRUE">
+  </Remove>
   <Add OfficeClientEdition="64" Channel="Current">
-    <Product ID="O365BusinessRetail">
+    <Product ID="O365ProPlusRetail">
       <Language ID="en-gb" />
-      <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Bing" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
